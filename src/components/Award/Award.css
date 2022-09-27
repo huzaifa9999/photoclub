@@ -1,0 +1,44 @@
+.main-achi {
+  width: 100%;
+  
+  background-image: radial-gradient(
+    circle,
+    #201f1f,
+    #252323,
+   
+  );
+  position: relative;
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+
+}
+
+.archi-head { text-align: center;
+
+  margin-top: 1rem;
+  margin-bottom:0rem;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+
+@media (max-width: 1100px) {
+  .achievements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+}
+.hue {
+  margin: 3rem;
+}
+
+.hue:hover {
+  transition: 0.4s ease-in-out;
+  scale: 120%;
+}

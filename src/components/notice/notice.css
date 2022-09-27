@@ -1,0 +1,22 @@
+.noticemain {
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+  background: #000000;
+}
+.noticecontent {
+  margin: auto;
+  padding: 1rem;
+}
+.monthhead {
+  margin-bottom: 1.25rem;
+}
+.text {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+#event {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}

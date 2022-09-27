@@ -1,0 +1,35 @@
+.mission-container {
+  width: 100%;
+  color: black;
+  padding: 1rem 3rem 3rem 3rem;
+
+  background: rgba(255, 255, 255, 0.7);
+}
+.statement {
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+.para {
+  color: black;
+  padding-top: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .para {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .statement {
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
+}
